@@ -17,6 +17,9 @@ func main() {
 	a = 20
 	msg = "Good Morning"
 
+	//변수 var, 변수타입 생략 가능 ":="
+	n := 11
+
 	//출력문
-	fmt.Println(msg, a)
+	fmt.Println(msg, a, n)
 }
